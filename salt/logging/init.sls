@@ -10,4 +10,4 @@ logwatch_crontab:
     - name: /etc/cron.daily/00logwatch
     - source: salt://logging/files/cron.dayly/00logwatch
     - require:
-      - pkg: logwatch
+      - pkg: logwatche
