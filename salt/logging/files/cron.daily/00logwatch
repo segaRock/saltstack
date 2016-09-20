@@ -1,0 +1,5 @@
+#!/bin/bash
+
+test -x /usr/share/logwatch/script/logwatch.pl || exit 0
+
+/usr/sbin/logwatch --mailto segarock@gmail.com
