@@ -11,7 +11,7 @@ users_{{name}}_{{group}}_group:
   group:
     - name: {{group}}
     - present
-{% endfor%}
+{% endfor %}
 
 
 users_{{name}}_user:
